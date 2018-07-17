@@ -41,7 +41,7 @@ int main()
     string x = "", y="";
     short int cont = 0;
     //process
-    while (cin >> x >>y){
+    while (cin >> x >> y){
 
         (findSubstring(x, y) ? cout << "Yes"<<endl: cout << "No"<<endl);
         cont++;
